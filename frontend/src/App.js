@@ -544,7 +544,7 @@ function App() {
             <div data-testid="footer-about">
               <h3 className="font-pixel text-xl mb-4">ASMIT KUMAR ROY</h3>
               <p className="text-sm text-gray-300">
-                Full-stack developer specializing in Java & React. President @ HashTag Society. Building scalable applications and leading technical teams.
+                Full-stack developer specializing in Java & React. Building scalable applications and leading technical teams.
               </p>
             </div>
 

@@ -8,7 +8,7 @@ import { Badge } from "./components/ui/badge";
 import { Input } from "./components/ui/input";
 import { Textarea } from "./components/ui/textarea";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "./components/ui/dialog";
-import { Github, Linkedin, Twitter, Mail, Sparkles, Zap, Heart, Code, Rocket, Star } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Sparkles, Zap, Heart, Code, Rocket, Star, Download } from "lucide-react";
 import { toast } from "sonner";
 
 function App() {

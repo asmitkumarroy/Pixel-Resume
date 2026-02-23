@@ -102,68 +102,68 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Update gaming-themed portfolio with Asmit Kumar Roy's resume details including personal info, skills, projects, and contact information"
+user_problem_statement: "Update gaming-themed portfolio with 5 changes: 1) Add profile photo, 2) Remove live demo links and add Portfolio Website project, 3) Setup contact form email to royasmit345@gmail.com, 4) Update footer to 2026 and remove President text, 5) Add resume download button"
 
 frontend:
-  - task: "Update hero section with Asmit's name and bio"
+  - task: "Add profile photo to hero section"
     implemented: true
     working: true
     file: "/app/frontend/src/App.js"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
       - working: true
         agent: "main"
-        comment: "Updated hero section with name 'ASMIT KUMAR ROY', title 'FULL-STACK DEVELOPER', and bio highlighting HashTag Society leadership, Hackemon achievement, and tech stack"
-      - working: true
-        agent: "testing"
-        comment: "✅ VERIFIED: Hero section displays correctly - Name 'ASMIT KUMAR ROY', title 'FULL-STACK DEVELOPER', and bio contains HashTag Society and Hackemon content as expected. All elements render properly with correct styling."
+        comment: "Replaced Code icon with actual profile photo (profile-photo.jpg). Image displays correctly in hero section with pixel-art border styling."
   
-  - task: "Update skills section with real tech stack"
+  - task: "Add resume download button"
     implemented: true
     working: true
     file: "/app/frontend/src/App.js"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
       - working: true
         agent: "main"
-        comment: "Updated 4 skills: Java & Spring Boot (90), React & Frontend (85), Databases SQL/NoSQL (80), Leadership & Management (95)"
-      - working: true
-        agent: "testing"
-        comment: "✅ VERIFIED: All 4 skills display correctly with exact names and levels - Java & Spring Boot (90), React & Frontend (85), Databases (SQL/NoSQL) (80), Leadership & Management (95). Animated progress bars work properly."
+        comment: "Added RESUME download button in hero section. Downloads Asmit_Kumar_Roy_Resume.pdf when clicked."
   
-  - task: "Replace demo projects with real portfolio projects"
+  - task: "Add Portfolio Website project and remove live demo links"
     implemented: true
     working: true
     file: "/app/frontend/src/App.js"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
       - working: true
         agent: "main"
-        comment: "Added 6 real projects: HashTag Society Website, Weather Wise IoT Platform, Open-Source Contributions, Hackemon Hackathon Project, Event Management System, Academic Projects Portfolio"
-      - working: true
-        agent: "testing"
-        comment: "✅ VERIFIED: All 6 projects display correctly with proper titles, descriptions, coin counts (30, 25, 20, 35, 28, 18), and tags. Project dialog functionality works - opens on click, shows detailed info, GitHub links point to github.com/asmitkumarroy, closes properly."
+        comment: "Added Portfolio Website as first project (40 coins). Removed LIVE DEMO button from all project dialogs. Now shows only VIEW CODE button."
   
-  - task: "Update footer and social links"
+  - task: "Setup Web3Forms contact form integration"
+    implemented: true
+    working: false
+    file: "/app/frontend/src/App.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: false
+        agent: "main"
+        comment: "Integrated Web3Forms API for contact form. User needs to get access key from web3forms.com and replace 'YOUR_WEB3FORMS_ACCESS_KEY' in code. Instructions provided in /app/WEB3FORMS_SETUP.md"
+  
+  - task: "Update footer year and remove President text"
     implemented: true
     working: true
     file: "/app/frontend/src/App.js"
     stuck_count: 0
     priority: "high"
-    needs_retesting: false
+    needs_retesting: true
     status_history:
       - working: true
         agent: "main"
-        comment: "Updated footer with Asmit's name and description. Updated social links: GitHub (github.com/asmitkumarroy), LinkedIn (linkedin.com/in/asmit-kumar-roy), Email (royasmit345@gmail.com)"
-      - working: true
-        agent: "testing"
-        comment: "✅ VERIFIED: Footer displays 'ASMIT KUMAR ROY' correctly. All social links work properly - GitHub (github.com/asmitkumarroy), LinkedIn (linkedin.com/in/asmit-kumar-roy), Email (royasmit345@gmail.com)."
+        comment: "Changed copyright year from 2025 to 2026. Removed 'President @ HashTag Society' from footer description."
 
 backend:
   - task: "No backend changes required"
@@ -180,18 +180,23 @@ backend:
 
 metadata:
   created_by: "main_agent"
-  version: "1.0"
-  test_sequence: 1
+  version: "2.0"
+  test_sequence: 2
   run_ui: true
 
 test_plan:
-  current_focus: []
+  current_focus:
+    - "Verify profile photo displays correctly in hero section"
+    - "Test resume download button functionality"
+    - "Verify Portfolio Website project appears as first project"
+    - "Verify LIVE DEMO button is removed from all project dialogs"
+    - "Test contact form submission (note: requires Web3Forms access key)"
+    - "Verify footer shows 2026 and updated description"
+    - "Test all existing functionality still works"
   stuck_tasks: []
-  test_all: false
-  test_priority: "completed"
+  test_all: true
+  test_priority: "high_first"
 
 agent_communication:
   - agent: "main"
-    message: "Updated portfolio with Asmit Kumar Roy's resume data. All personal information, skills, projects, and contact details have been replaced. Screenshot verification shows all sections rendering correctly. Ready for comprehensive testing."
-  - agent: "testing"
-    message: "✅ COMPREHENSIVE TESTING COMPLETED: All functionality verified successfully. Hero section displays correct name/bio, all 4 skills show proper levels and animations, all 6 projects display with correct details and working dialogs, navigation works smoothly, contact form submits properly, footer shows correct info and social links, coin counter increments, mobile responsive design works, and all animations function properly. Portfolio is fully functional and ready for production."
+    message: "Implemented all 5 requested changes. Profile photo added, resume download working, Portfolio Website project added as first item, LIVE DEMO buttons removed, footer updated to 2026. Contact form needs Web3Forms access key setup by user (instructions in WEB3FORMS_SETUP.md). Ready for comprehensive testing."

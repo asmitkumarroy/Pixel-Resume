@@ -491,9 +491,9 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* About */}
             <div data-testid="footer-about">
-              <h3 className="font-pixel text-xl mb-4">ALEX DEVSON</h3>
+              <h3 className="font-pixel text-xl mb-4">ASMIT KUMAR ROY</h3>
               <p className="text-sm text-gray-300">
-                Full-stack developer crafting pixel-perfect experiences. Always ready for the next challenge.
+                Full-stack developer specializing in Java & React. President @ HashTag Society. Building scalable applications and leading technical teams.
               </p>
             </div>
 

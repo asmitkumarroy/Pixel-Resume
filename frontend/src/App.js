@@ -17,10 +17,10 @@ function App() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
   const skills = [
-    { name: "React & Frontend", level: 90, color: "--sky-blue", icon: "⚡" },
-    { name: "Node.js & Backend", level: 85, color: "--mint-green", icon: "🔋" },
-    { name: "UI/UX Design", level: 75, color: "--coin-gold", icon: "✨" },
-    { name: "Problem Solving", level: 95, color: "--heart-red", icon: "💪" }
+    { name: "Java & Spring Boot", level: 90, color: "--sky-blue", icon: "☕" },
+    { name: "React & Frontend", level: 85, color: "--mint-green", icon: "⚡" },
+    { name: "Databases (SQL/NoSQL)", level: 80, color: "--coin-gold", icon: "🗄️" },
+    { name: "Leadership & Management", level: 95, color: "--heart-red", icon: "👑" }
   ];
 
   const projects = [

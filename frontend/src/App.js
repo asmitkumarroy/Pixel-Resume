@@ -26,6 +26,15 @@ function App() {
   const projects = [
     {
       id: 1,
+      title: "Portfolio Website",
+      description: "Gaming-themed portfolio with pixel-art aesthetics and animations",
+      tags: ["React", "Framer Motion", "Tailwind"],
+      coins: 40,
+      details: "Built a unique gaming-themed portfolio website featuring pixel-art design, animated skill trees, project showcases, and gamification elements. Implemented with React, Framer Motion for smooth animations, and Tailwind CSS for responsive design. Features include interactive coin counter, smooth scrolling navigation, and contact form integration.",
+      link: "https://github.com/asmitkumarroy"
+    },
+    {
+      id: 2,
       title: "HashTag Society Website",
       description: "Multi-page responsive web app with Java API & React frontend",
       tags: ["Java", "React", "Spring Boot"],
@@ -34,7 +43,7 @@ function App() {
       link: "https://github.com/asmitkumarroy"
     },
     {
-      id: 2,
+      id: 3,
       title: "Weather Wise IoT Platform",
       description: "Java backend for real-time weather data from IoT sensors",
       tags: ["Java", "REST API", "IoT"],
@@ -43,7 +52,7 @@ function App() {
       link: "https://github.com/asmitkumarroy"
     },
     {
-      id: 3,
+      id: 4,
       title: "Open-Source Contributions",
       description: "Active contributor to multiple GitHub repositories",
       tags: ["Backend", "CI/CD", "Testing"],
@@ -52,7 +61,7 @@ function App() {
       link: "https://github.com/asmitkumarroy"
     },
     {
-      id: 4,
+      id: 5,
       title: "Hackemon Hackathon Project",
       description: "Top 20 finalist out of 650+ teams",
       tags: ["Full-Stack", "Real-time", "Prototype"],
@@ -61,7 +70,7 @@ function App() {
       link: "https://github.com/asmitkumarroy"
     },
     {
-      id: 5,
+      id: 6,
       title: "Event Management System",
       description: "Judge dashboards & submission portals for technical events",
       tags: ["Java", "WebSocket", "MySQL"],
@@ -70,7 +79,7 @@ function App() {
       link: "https://github.com/asmitkumarroy"
     },
     {
-      id: 6,
+      id: 7,
       title: "Academic Projects Portfolio",
       description: "Collection of DSA, OOP, and system design projects",
       tags: ["Java", "Python", "Algorithms"],

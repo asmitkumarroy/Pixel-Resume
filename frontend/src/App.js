@@ -96,12 +96,39 @@ function App() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    toast.success("Message sent! Thanks for reaching out! 🎮", {
-      duration: 3000,
-    });
-    setFormData({ name: '', email: '', message: '' });
+    
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // User needs to replace this
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          subject: 'New Contact Form Submission from Portfolio',
+        }),
+      });
+
+      if (response.ok) {
+        toast.success("Message sent! Thanks for reaching out! 🎮", {
+          duration: 3000,
+        });
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        toast.error("Failed to send message. Please try again.", {
+          duration: 3000,
+        });
+      }
+    } catch (error) {
+      toast.error("Failed to send message. Please try again.", {
+        duration: 3000,
+      });
+    }
   };
 
   const scrollToSection = (id) => {

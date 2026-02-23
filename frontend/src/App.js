@@ -214,7 +214,7 @@ function App() {
                 transition={{ delay: 0.2 }}
               >
                 <h1 className="font-pixel text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight" data-testid="hero-title">
-                  ALEX DEVSON
+                  ASMIT KUMAR ROY
                 </h1>
               </motion.div>
               
@@ -235,8 +235,8 @@ function App() {
                 className="text-base sm:text-base leading-relaxed text-[hsl(var(--muted-foreground))]"
                 data-testid="hero-description"
               >
-                Building pixel-perfect web experiences and crushing code challenges like boss battles. 
-                Level 99 developer with max XP in React, Node.js, and creative problem solving.
+                President of HashTag Technical Society leading 25+ developers. Top 20 Hackemon finalist out of 650+ teams. 
+                Building production-grade applications with Java, Spring Boot, React, and modern tech stack. CGPA 8.10 | B.Tech CSE @ GGSIPU.
               </motion.p>
 
               <motion.div

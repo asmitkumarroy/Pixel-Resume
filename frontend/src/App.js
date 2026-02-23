@@ -229,8 +229,12 @@ function App() {
               data-testid="hero-avatar"
             >
               <div className="relative">
-                <div className="w-64 h-64 bg-[hsl(var(--primary))] border-[4px] border-[color:hsl(var(--pixel-outline))] shadow-[8px_8px_0_0_hsl(var(--pixel-outline))] flex items-center justify-center animate-float">
-                  <Code className="w-32 h-32 text-white" />
+                <div className="w-64 h-64 border-[4px] border-[color:hsl(var(--pixel-outline))] shadow-[8px_8px_0_0_hsl(var(--pixel-outline))] overflow-hidden animate-float">
+                  <img 
+                    src="/profile-photo.jpg" 
+                    alt="Asmit Kumar Roy" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <motion.div
                   animate={{ y: [0, -10, 0] }}

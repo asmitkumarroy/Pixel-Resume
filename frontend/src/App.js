@@ -26,57 +26,57 @@ function App() {
   const projects = [
     {
       id: 1,
-      title: "Pixel Quest RPG",
-      description: "A retro-style RPG game built with React and Canvas API",
-      tags: ["React", "Canvas", "Game"],
-      coins: 15,
-      details: "Full-featured RPG with character progression, quests, and epic battles. Built with React hooks and HTML5 Canvas for smooth 60fps gameplay.",
-      link: "https://github.com"
+      title: "HashTag Society Website",
+      description: "Multi-page responsive web app with Java API & React frontend",
+      tags: ["Java", "React", "Spring Boot"],
+      coins: 30,
+      details: "Built a comprehensive web application with Java-based API layer and React frontend. Integrated Sanity CMS for dynamic content management and Web3Forms for contact forms. Implemented Spring Boot microservice for event submissions with secure data flow. Achieved 95+ Lighthouse scores for performance and SEO.",
+      link: "https://github.com/asmitkumarroy"
     },
     {
       id: 2,
-      title: "AI Chat Bot",
-      description: "Smart chatbot powered by latest AI models",
-      tags: ["AI", "Node.js", "API"],
-      coins: 20,
-      details: "Intelligent conversational AI with context awareness, multi-language support, and real-time responses. Integrated with GPT-4 and custom training data.",
-      link: "https://github.com"
+      title: "Weather Wise IoT Platform",
+      description: "Java backend for real-time weather data from IoT sensors",
+      tags: ["Java", "REST API", "IoT"],
+      coins: 25,
+      details: "Developed backend Java services to ingest, process, and store real-time weather data from distributed Raspberry Pi sensors. Designed RESTful APIs for dashboard consumption and analytics. Implemented reliable data pipelines and storage for scalable access and ML integration.",
+      link: "https://github.com/asmitkumarroy"
     },
     {
       id: 3,
-      title: "E-Commerce Platform",
-      description: "Full-stack shopping experience with payment integration",
-      tags: ["Full-Stack", "Stripe", "MongoDB"],
-      coins: 25,
-      details: "Complete e-commerce solution with product management, cart functionality, secure payments, and order tracking. Built with MERN stack.",
-      link: "https://github.com"
+      title: "Open-Source Contributions",
+      description: "Active contributor to multiple GitHub repositories",
+      tags: ["Backend", "CI/CD", "Testing"],
+      coins: 20,
+      details: "Contributed to multiple GitHub repositories focusing on backend APIs, utility libraries, and deployment scripts. Maintained and documented code with unit tests and CI-friendly configurations. 10+ repositories with frequent commits.",
+      link: "https://github.com/asmitkumarroy"
     },
     {
       id: 4,
-      title: "Weather Dashboard",
-      description: "Real-time weather data visualization",
-      tags: ["React", "API", "Charts"],
-      coins: 10,
-      details: "Beautiful weather dashboard with 7-day forecasts, interactive maps, and detailed metrics. Uses multiple weather APIs for accurate data.",
-      link: "https://github.com"
+      title: "Hackemon Hackathon Project",
+      description: "Top 20 finalist out of 650+ teams",
+      tags: ["Full-Stack", "Real-time", "Prototype"],
+      coins: 35,
+      details: "Placed in Top 20 out of 650+ teams at Hackemon Hackathon (Apr 2025). Designed and delivered an end-to-end prototype integrating backend services and real-time features within a 36-hour timeframe. Showcased strong problem-solving and rapid development skills.",
+      link: "https://github.com/asmitkumarroy"
     },
     {
       id: 5,
-      title: "Task Manager Pro",
-      description: "Collaborative project management tool",
-      tags: ["React", "WebSocket", "Firebase"],
-      coins: 18,
-      details: "Real-time task management with team collaboration, drag-and-drop boards, notifications, and progress tracking. Built with Firebase for real-time sync.",
-      link: "https://github.com"
+      title: "Event Management System",
+      description: "Judge dashboards & submission portals for technical events",
+      tags: ["Java", "WebSocket", "MySQL"],
+      coins: 28,
+      details: "Designed and managed Java-based judge dashboards, event submission portals, and automation tools for 20+ technical events and hackathons at HashTag Society. Handled real-time submissions and automated scoring systems.",
+      link: "https://github.com/asmitkumarroy"
     },
     {
       id: 6,
-      title: "Portfolio Generator",
-      description: "Automated portfolio site builder",
-      tags: ["Next.js", "CMS", "Deploy"],
-      coins: 22,
-      details: "No-code portfolio builder with templates, drag-and-drop editor, and one-click deployment. Integrated with headless CMS for easy content management.",
-      link: "https://github.com"
+      title: "Academic Projects Portfolio",
+      description: "Collection of DSA, OOP, and system design projects",
+      tags: ["Java", "Python", "Algorithms"],
+      coins: 18,
+      details: "Strong fundamentals in Data Structures & Algorithms, Object-Oriented Design, Multithreading, Exception Handling, and Collections framework. Multiple academic projects demonstrating core CS knowledge with 8.10 CGPA.",
+      link: "https://github.com/asmitkumarroy"
     }
   ];
 

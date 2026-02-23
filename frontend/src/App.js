@@ -303,6 +303,17 @@ function App() {
                   <Mail className="w-4 h-4 mr-2" />
                   HIRE ME
                 </Button>
+                <Button
+                  asChild
+                  variant="outline"
+                  className="rounded-none border-[3px] border-[color:hsl(var(--pixel-outline))] shadow-[4px_4px_0_0_hsl(var(--pixel-outline))] active:shadow-[0_0_0_0_hsl(var(--pixel-outline))] active:translate-x-[4px] active:translate-y-[4px] bg-white text-[hsl(var(--foreground))] hover:bg-[hsl(var(--muted))] font-press-start text-xs px-6 py-6"
+                  data-testid="hero-resume-cta"
+                >
+                  <a href="/Asmit_Kumar_Roy_Resume.pdf" download>
+                    <Download className="w-4 h-4 mr-2" />
+                    RESUME
+                  </a>
+                </Button>
               </motion.div>
             </div>
           </div>

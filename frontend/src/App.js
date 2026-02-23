@@ -669,17 +669,6 @@ function App() {
                       VIEW CODE
                     </a>
                   </Button>
-                  <Button
-                    asChild
-                    variant="outline"
-                    className="rounded-none border-[3px] border-[color:hsl(var(--pixel-outline))] shadow-[4px_4px_0_0_hsl(var(--pixel-outline))] font-press-start text-xs"
-                    data-testid="project-dialog-demo-btn"
-                  >
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <Sparkles className="w-4 h-4 mr-2" />
-                      LIVE DEMO
-                    </a>
-                  </Button>
                 </div>
               </div>
             </>

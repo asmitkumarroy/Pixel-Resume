@@ -570,7 +570,7 @@ function App() {
 
           <div className="border-t-[3px] border-white/20 pt-8 text-center">
             <p className="font-press-start text-xs text-gray-300" data-testid="footer-copyright">
-              © 2025 ALEX DEVSON. BUILT WITH <Heart className="inline w-3 h-3 text-[hsl(var(--heart-red))] fill-[hsl(var(--heart-red))]" /> & REACT
+              © 2025 ASMIT KUMAR ROY. BUILT WITH <Heart className="inline w-3 h-3 text-[hsl(var(--heart-red))] fill-[hsl(var(--heart-red))]" /> & REACT
             </p>
           </div>
         </div>

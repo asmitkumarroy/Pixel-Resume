@@ -538,7 +538,7 @@ function App() {
               <div className="flex gap-4">
                 <motion.a
                   whileHover={{ y: -4 }}
-                  href="https://github.com"
+                  href="https://github.com/asmitkumarroy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-white border-[3px] border-white flex items-center justify-center hover:bg-[hsl(var(--coin-gold))] transition-colors"
@@ -548,7 +548,7 @@ function App() {
                 </motion.a>
                 <motion.a
                   whileHover={{ y: -4 }}
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/asmit-kumar-roy/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-white border-[3px] border-white flex items-center justify-center hover:bg-[hsl(var(--coin-gold))] transition-colors"
@@ -558,13 +558,11 @@ function App() {
                 </motion.a>
                 <motion.a
                   whileHover={{ y: -4 }}
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:royasmit345@gmail.com"
                   className="w-12 h-12 bg-white border-[3px] border-white flex items-center justify-center hover:bg-[hsl(var(--coin-gold))] transition-colors"
-                  data-testid="footer-social-twitter"
+                  data-testid="footer-social-email"
                 >
-                  <Twitter className="w-6 h-6 text-[hsl(var(--pixel-outline))]" />
+                  <Mail className="w-6 h-6 text-[hsl(var(--pixel-outline))]" />
                 </motion.a>
               </div>
             </div>

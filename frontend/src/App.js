@@ -12,9 +12,9 @@ import { Github, Linkedin, Twitter, Mail, Sparkles, Zap, Heart, Code, Rocket, St
 import { toast } from "sonner";
 
 function App() {
-  const [coins, setCoins] = useState(42);
   const [selectedProject, setSelectedProject] = useState(null);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [bonusCoins, setBonusCoins] = useState(0);
 
   const skills = [
     { name: "Java & Spring Boot", level: 90, color: "--sky-blue", icon: "☕" },

@@ -202,7 +202,7 @@ function App() {
               data-testid="coin-counter"
             >
               <div className="w-5 h-5 bg-[hsl(var(--coin-gold))] rounded-full border-2 border-[color:hsl(var(--pixel-outline))]" />
-              <span className="font-press-start text-xs">{coins}</span>
+              <span className="font-press-start text-xs">{totalCoins}</span>
             </motion.div>
           </div>
         </div>

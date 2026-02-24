@@ -90,11 +90,14 @@ function App() {
   ];
 
   const handleCoinCollect = () => {
-    setCoins(coins + 1);
-    toast.success("+1 Coin Collected!", {
+    setBonusCoins(bonusCoins + 1);
+    toast.success("+1 Bonus Coin Collected!", {
       duration: 2000,
     });
   };
+
+  // Calculate total coins from all projects + bonus coins
+  const totalCoins = projects.reduce((sum, project) => sum + project.coins, 0) + bonusCoins;
 
   const handleSubmit = async (e) => {
     e.preventDefault();

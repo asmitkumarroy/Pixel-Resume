@@ -106,7 +106,7 @@ function App() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // User needs to replace this
+          access_key: '0456e20e-36cf-450f-83cd-cc792a4ab70e', // User needs to replace this
           name: formData.name,
           email: formData.email,
           message: formData.message,
